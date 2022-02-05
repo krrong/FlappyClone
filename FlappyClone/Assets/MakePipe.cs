@@ -26,7 +26,7 @@ public class MakePipe : MonoBehaviour
             GameObject newpipe = Instantiate(pipe);
 
             // pipe의 위치 수정
-            newpipe.transform.position = new Vector3(0.84f, Random.Range(-1.5f, 5.5f), 0);
+            newpipe.transform.position = new Vector3(0.84f, Random.Range(-1.7f, 4.1f), 0);
 
             timer = 0;
 
